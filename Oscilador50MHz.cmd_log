@@ -1,7 +1,0 @@
-xst -intstyle ise -ifn "/home/ise/Gabriel/Desktop/Tareas TAdE/TareaOscilador/Oscilador50MHz.xst" -ofn "/home/ise/Gabriel/Desktop/Tareas TAdE/TareaOscilador/Oscilador50MHz.syr" 
-xst -intstyle ise -ifn "/home/ise/Gabriel/Desktop/Tareas TAdE/TareaOscilador/Oscilador50MHz.xst" -ofn "/home/ise/Gabriel/Desktop/Tareas TAdE/TareaOscilador/Oscilador50MHz.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "/home/ise/Gabriel/Desktop/Tareas TAdE/generador50pro.ucf" -p xc3s1600e-fg320-4 "Oscilador50MHz.ngc" Oscilador50MHz.ngd  
-map -intstyle ise -p xc3s1600e-fg320-4 -cm area -ir off -pr off -c 100 -o Oscilador50MHz_map.ncd Oscilador50MHz.ngd Oscilador50MHz.pcf 
-par -w -intstyle ise -ol high -t 1 Oscilador50MHz_map.ncd Oscilador50MHz.ncd Oscilador50MHz.pcf 
-trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Oscilador50MHz.twx Oscilador50MHz.ncd -o Oscilador50MHz.twr Oscilador50MHz.pcf 
-bitgen -intstyle ise -f Oscilador50MHz.ut Oscilador50MHz.ncd 
